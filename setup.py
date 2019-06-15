@@ -16,7 +16,7 @@ with codecs.open("README.md", encoding="utf-8") as fp:
 
 setup(
     name='opsgenie',
-    version='0.0.1',
+    version='1.0',
     author='Kumarappan Arumugam',
     author_email='kumarappan.ar@gmail.com',
     description='A Python SDK for OpsGenie Web/REST API',
