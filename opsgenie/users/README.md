@@ -11,4 +11,4 @@ from opsgenie import GetUserRequest
 config = Configuration(apikey="YOUR_API_KEY", endpoint="OPTIONAL") # default endpoint is api.opsgenie.com
 client = OpsGenie(config)
 user = client.users.get_user(GetUserRequest(identifier='example@user.com'))
-</pre></code>
+</code></pre>

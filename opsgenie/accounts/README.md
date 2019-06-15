@@ -11,4 +11,4 @@ from opsgenie import CreateAlertRequest
 config = Configuration(apikey="YOUR_API_KEY", endpoint="OPTIONAL") # default endpoint is api.opsgenie.com
 client = OpsGenie(config)
 account = client.accounts.get_account()
-</pre></code>
+</code></pre>

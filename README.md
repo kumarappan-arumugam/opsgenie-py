@@ -55,7 +55,7 @@ alert_request = CreateAlertRequest(
 			        priority = "P1"
                 )
 client.alert.create_alert(alert_request)
-</pre></code>
+</code></pre>
 
 ## Importance of Alias
 
