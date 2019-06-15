@@ -8,10 +8,10 @@ OpsGenie Python SDK aims to access OpsGenie Web API through HTTP calls from a cl
 
 OpsGenie Python SDK covers:
 
-- [Alert API](https://github.com/kumarappan-arumugam/opsgenie-py) (Under development)
-- [Account API](https://github.com/kumarappan-arumugam/opsgenie-py) (Under development)
-- [User API](https://github.com/kumarappan-arumugam/opsgenie-py) (Under development)
-- [Team API](https://github.com/kumarappan-arumugam/opsgenie-py) (Under development)
+- [Alert API](https://github.com/kumarappan-arumugam/opsgenie-py/tree/master/opsgenie/alerts) (Under development)
+- [Account API](https://github.com/kumarappan-arumugam/opsgenie-py/tree/master/opsgenie/accounts) (Under development)
+- [User API](https://github.com/kumarappan-arumugam/opsgenie-py/tree/master/opsgenie/users) (Under development)
+- [Team API](https://github.com/kumarappan-arumugam/opsgenie-py/tree/master/opsgenie/teams) (Under development)
 
 ## Pre-requisites
 
@@ -32,7 +32,7 @@ from opsgenie import OpsGenie
 from opsgenie import Configuration
 from opsgenie import CreateAlertRequest
 
-config = Configuration(apikey="YOUR_API_KEY")
+config = Configuration(apikey="YOUR_API_KEY", endpoint="OPTIONAL") # default endpoint is api.opsgenie.com
 client = OpsGenie(config)
 alert_request = CreateAlertRequest(
 			        message = "An example alert message",
@@ -66,9 +66,9 @@ client.alert.create_alert(alert_request)
 Please follow the links below for more information and details about the Web API.
 
 - [Alert API](https://docs.opsgenie.com/docs/alert-api)
-- [Account API](https://docs.opsgenie.com/docs/alert-api)
-- [User API](https://docs.opsgenie.com/docs/alert-api)
-- [Team API](https://docs.opsgenie.com/docs/alert-api)
+- [Account API](https://docs.opsgenie.com/docs/account-api)
+- [User API](https://docs.opsgenie.com/docs/user-api)
+- [Team API](https://docs.opsgenie.com/docs/team-api)
 
 ## Bug Reporting and Feature Requests
 
