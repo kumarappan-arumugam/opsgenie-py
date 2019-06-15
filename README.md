@@ -27,7 +27,7 @@ To download all packages in the repo with their dependencies, simply execute
 ## Getting Started
 
 One can start using OpsGenie Python SDK by initializing client and making a request. Example shown below demonstrates how to initialize our client and make a create alert request.
-```
+<pre><code>
 from opsgenie import OpsGenie
 from opsgenie import Configuration
 from opsgenie import CreateAlertRequest
@@ -55,7 +55,7 @@ alert_request = CreateAlertRequest(
 			        priority = "P1"
                 )
 client.alert.create_alert(alert_request)
-```
+</pre></code>
 
 ## Importance of Alias
 

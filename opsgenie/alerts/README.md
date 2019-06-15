@@ -3,7 +3,7 @@
 ## Getting Started
 
 Example shown below demonstrates how to initialize our client and make a create alert request.
-```
+<pre><code>
 from opsgenie import OpsGenie
 from opsgenie import Configuration
 from opsgenie import CreateAlertRequest
@@ -31,4 +31,4 @@ alert_request = CreateAlertRequest(
 			        priority = "P1"
                 )
 client.alert.create_alert(alert_request)
-```
+</pre></code>
