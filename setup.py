@@ -15,7 +15,7 @@ with codecs.open("README.md", encoding="utf-8") as fp:
     long_description = fp.read()
 
 setup(
-    name='sentry-opsgenie',
+    name='opsgenie',
     version='0.0.1',
     author='Kumarappan Arumugam',
     author_email='kumarappan.ar@gmail.com',
