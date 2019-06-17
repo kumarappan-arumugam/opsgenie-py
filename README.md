@@ -22,7 +22,7 @@ OpsGenie Python SDK covers:
 
 To download all packages in the repo with their dependencies, simply execute
 
-`pip install https://github.com/kumarappan-arumugam/opsgenie-py/archive/<version>.zip`
+`pip install https://github.com/kumarappan-arumugam/opsgenie-py/archive/master.zip`
 
 ## Getting Started
 
